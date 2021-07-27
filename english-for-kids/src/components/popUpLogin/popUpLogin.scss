@@ -1,0 +1,111 @@
+.login-form {
+  width: 812px;
+  height: 571px;
+  position: fixed;
+  z-index: 10;
+  top: calc(50vh - 285.5px);
+  left: calc(50vw - 408.5px);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.07);
+  border-radius: 15px;
+  z-index: 30;
+}
+
+.login-title {
+  font-family: "Roboto";
+  font-size: 48px;
+  line-height: 56px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 145%;
+  color: #000000;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.login-label {
+  display: block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145%;
+  color: #000000;
+}
+
+.login-input {
+  display: block;
+  background: none;
+  width: 516px;
+  height: 70px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+  margin: 37px 0 26px 118px;
+}
+
+
+.login-input::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+
+
+.btn-popUp-cancel,
+.btn-popUp-login {
+  width: 248px;
+  height: 60px;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.btn-popUp-cancel {
+  background: #E53935;
+  margin: 0 77px 0 113px;
+}
+.btn-popUp-cancel:hover {
+  background: #d45654;
+}
+.btn-popUp-login {
+  background: #4FBE79;
+}
+.btn-popUp-login:hover {
+  background: #61d18c;
+}
+.btn-popUp-wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 105px;
+  background: #4FBE79;
+  display: flex;
+  align-items: center;
+}
+
+.hidden-login {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.hidden-popUp {
+  display: none;
+}

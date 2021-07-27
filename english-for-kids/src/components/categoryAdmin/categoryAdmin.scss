@@ -1,0 +1,39 @@
+.wrapper-category-admin {
+  width: 361px;
+  height: 244px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.name-category {
+  width: 253px;
+  height: 34.49px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.btn-admin-update,
+.btn-admin-delete {
+  width: 135.03px;
+height: 30.76px;
+
+
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #00BF82;
+}

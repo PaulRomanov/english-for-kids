@@ -1,0 +1,104 @@
+@import '../../constants/constants.scss';
+
+.burger-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 375px;
+    height: 100%;
+    background: $GRADIENT_MENU;
+    padding-top: 150px;
+    padding-left: 60px;
+    transform: translateX(-100%);
+    transition: 0.5s all linear;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.menu-item {
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: $COLOR_BTN;
+    background: transparent;
+    border: none;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.burger-btn-close {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 35px;
+    left: 45px;
+    z-index: 11;
+}
+
+.line-close {
+    top: 50%;
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 5px;
+    background: $COLOR_BURGER;
+    border-radius: 3px;
+}
+
+.line-close:first-child {
+    transform: matrix(0.71, 0.7, -0.71, 0.71, 0, 0);
+}
+
+.line-close:last-child {
+    transform: matrix(0.71, -0.7, 0.71, 0.71, 0, 0);
+}
+
+.burger-menu-active {
+    transform: translateX(0);
+}
+
+.active-item {
+    color: rgb(21, 255, 0);
+    font-size: 32px;
+}
+
+.menu-close {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 435px;
+}
+
+.hidden {
+    display: none;
+}
+
+a img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.btn-login {
+    width: 248px;
+    height: 60px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-size: 22px;
+    background: rgb(81, 199, 81);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn-login:hover {
+    background: rgb(101, 206, 101);
+}
